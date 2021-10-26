@@ -1,8 +1,8 @@
 var MOTO;
 (function() {
   'use strict';
-  if (SHEEP_2048) {
-    SHEEP_2048();
+  if (MOTO) {
+    MOTO();
   } else {
     function applyStyles(elem,obj) {
       for (var prop in obj) elem.style[prop]=obj[prop];
@@ -38,13 +38,13 @@ var MOTO;
     function leave() {wrapper.style.opacity="0";frame.blur();}
     wrapper.addEventListener("mouseenter",enter,false);
     wrapper.addEventListener("mouseleave",leave,false);
-    SHEEP_2048=()=>{
+    MOTO=()=>{
       wrapper.removeEventListener("mouseenter",enter,false);
       wrapper.removeEventListener("mouseleave",leave,false);
       wrapper.parentNode.removeChild(wrapper);
       frame=null;
       wrapper=null;
-      SHEEP_2048=undefined;
+      MOTO=undefined;
       for (var script of document.querySelectorAll('script[src="https://raw.githubusercontent.com/ER332423/Test/main/moto.js"]')) script.parentNode.removeChild(script);
     };
   }
