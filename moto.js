@@ -10,8 +10,6 @@ var MOTO;
     var wrapper=document.createElement("div"),
     frame=document.createElement("iframe");
     frame.src="https://images-docs-opensocial.googleusercontent.com/gadgets/ifr?url=https://sites.google.com/site/s017q3e/moto-x3m.xml";
-    frame.width=333; // additional 30px to hide scrollbars
-    frame.height=461;
     frame.scrolling="no";
     applyStyles(frame,{
       position:'absolute',
