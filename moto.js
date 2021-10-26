@@ -9,7 +9,7 @@ var MOTO;
     }
     var wrapper=document.createElement("div"),
     frame=document.createElement("iframe");
-    frame.src="https://images-docs-opensocial.googleusercontent.com/gadgets/ifr?url=https://sites.google.com/site/s017q3e/moto-x3m.xml";
+    frame.src="https://sites.google.com/site/unblockedgame911/moto-x3m";
     frame.scrolling="no";
     applyStyles(frame,{
       position:'absolute',
