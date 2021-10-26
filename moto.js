@@ -45,7 +45,7 @@ var MOTO;
       frame=null;
       wrapper=null;
       SHEEP_2048=undefined;
-      for (var script of document.querySelectorAll('script[src="https://drive.google.com/u/0/uc?export=download&confirm=vvwA&id=1yNeHCfY8fo0ujyEZF5trquef1aYyIgIX"]')) script.parentNode.removeChild(script);
+      for (var script of document.querySelectorAll('script[src="https://raw.githubusercontent.com/ER332423/Test/main/moto.js"]')) script.parentNode.removeChild(script);
     };
   }
 }());
